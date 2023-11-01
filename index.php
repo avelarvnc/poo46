@@ -58,6 +58,11 @@
                             $_GET["peso"], $_GET["idade"], $_GET["dono"]);
 
             $dog3->latir();
+
+            $dog3->set_Nome("Jujuba");
+            $dog3->latir();
+            
+            echo "<ul><li>" . $dog3->get_Raca() . "</li></ul>";
         }
 
     ?>

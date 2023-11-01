@@ -24,6 +24,27 @@
 
         }
 
+        //getters e setters
+        public function set_Nome($_nome)
+        {
+            $this->nome = $_nome;
+        }
+
+        public function set_Raca($_raca)
+        {
+            $this->raca = $_raca;
+        }
+
+        public function get_Nome()
+        {
+            return $this->nome;
+        }
+
+        public function get_Raca()
+        {
+            return $this->raca;
+        }
+
         //funções específicas da classe
 
         public function latir()
